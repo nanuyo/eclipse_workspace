@@ -1,0 +1,27 @@
+#include <cv.h>
+#include <highgui.h>
+#include <cxcore.h>
+#include <stdio.h>
+
+int main(void)
+{
+	IplImage* src;
+	src=cvLoadImage("eggs1.jpg",1);
+
+	IplImage* hsv = cvCreateImage( cvGetSize(src), 8, 3 );
+		IplImage* hsv2 = cvCreateImage( cvGetSize(src), 8, 3 );
+		IplImage* bgr = cvCreateImage( cvGetSize(src), 8, 3 );
+		IplImage* grey = cvCreateImage( cvGetSize(src), 8, 1 );
+		IplImage* grey2 = cvCreateImage( cvGetSize(src), 8, 1 );
+		IplImage* disp = cvCreateImage( cvGetSize(src), 8, 3 );
+
+		cvCvtColor( src, hsv, CV_BGR2HSV );
+
+
+			//Classify images
+			CvMat *mat1 = cvCreateMat(src->height,src->width,CV_16UC3);
+			cvConvert( src, mat1 );
+
+
+	return 0;
+}

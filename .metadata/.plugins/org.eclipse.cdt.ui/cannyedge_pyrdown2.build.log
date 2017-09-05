@@ -1,0 +1,15 @@
+09:49:36 **** Build of configuration Debug for project cannyedge_pyrdown2 ****
+make all 
+Building file: ../example_02-09.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-09.d" -MT"example_02-09.o" -o "example_02-09.o" "../example_02-09.cpp"
+Finished building: ../example_02-09.cpp
+ 
+Building target: cannyedge_pyrdown
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge_pyrdown"  ./example_02-09.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: cannyedge_pyrdown
+ 
+
+09:49:38 Build Finished (took 2s.30ms)
+

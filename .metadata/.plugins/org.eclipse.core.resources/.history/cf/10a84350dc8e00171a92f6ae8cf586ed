@@ -1,0 +1,12 @@
+#include <cv.h>
+#include <highgui.h>
+#include <cxcore.h>
+#include <stdio.h>
+
+int main(void)
+{
+	IplImage* src;
+	src=cvLoadImage(F,1);
+
+	return 0;
+}

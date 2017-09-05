@@ -1,0 +1,15 @@
+16:38:30 **** Incremental Build of configuration Debug for project simple_transform ****
+make all 
+Building file: ../example_02-05.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-05.d" -MT"example_02-05.o" -o "example_02-05.o" "../example_02-05.cpp"
+Finished building: ../example_02-05.cpp
+ 
+Building target: simple_transform
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "simple_transform"  ./example_02-05.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: simple_transform
+ 
+
+16:38:32 Build Finished (took 1s.929ms)
+

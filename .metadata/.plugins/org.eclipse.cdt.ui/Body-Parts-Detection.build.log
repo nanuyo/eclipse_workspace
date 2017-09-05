@@ -1,0 +1,6 @@
+14:40:15 **** Build of configuration Default for project Body-Parts-Detection ****
+make all 
+make: *** 타겟 'all'을(를) 만들 규칙이 없습니다.  멈춤.
+
+14:40:15 Build Finished (took 192ms)
+

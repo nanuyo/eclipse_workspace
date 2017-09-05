@@ -1,0 +1,132 @@
+16:38:30 **** Incremental Build of configuration Debug for project simple_transform ****
+make all 
+Building file: ../example_02-05.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-05.d" -MT"example_02-05.o" -o "example_02-05.o" "../example_02-05.cpp"
+Finished building: ../example_02-05.cpp
+ 
+Building target: simple_transform
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "simple_transform"  ./example_02-05.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: simple_transform
+ 
+09:43:51 **** Build of configuration Debug for project cannyedge ****
+make all 
+Building file: ../example_02-07.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-07.d" -MT"example_02-07.o" -o "example_02-07.o" "../example_02-07.cpp"
+Finished building: ../example_02-07.cpp
+ 
+Building target: cannyedge
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge"  ./example_02-07.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: cannyedge
+ 
+09:48:29 **** Clean-only build of configuration Debug for project cannyedge ****
+make clean 
+rm -rf  ./example_02-07.o  ./example_02-07.d  cannyedge
+ 
+09:48:29 **** Incremental Build of configuration Debug for project cannyedge ****
+make all 
+Building file: ../example_02-07.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-07.d" -MT"example_02-07.o" -o "example_02-07.o" "../example_02-07.cpp"
+Finished building: ../example_02-07.cpp
+ 
+Building target: cannyedge_pyrdown
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge_pyrdown"  ./example_02-07.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: cannyedge_pyrdown
+ 
+09:48:32 **** Clean-only build of configuration Debug for project cannyedge_pyrdown ****
+make clean 
+rm -rf  ./example_02-07.o  ./example_02-07.d  cannyedge
+ 
+09:48:32 **** Build of configuration Debug for project cannyedge_pyrdown ****
+make all 
+Building file: ../example_02-08.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-08.d" -MT"example_02-08.o" -o "example_02-08.o" "../example_02-08.cpp"
+Finished building: ../example_02-08.cpp
+ 
+Building file: ../example_02-09.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-09.d" -MT"example_02-09.o" -o "example_02-09.o" "../example_02-09.cpp"
+Finished building: ../example_02-09.cpp
+ 
+Building target: cannyedge
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge"  ./example_02-08.o ./example_02-09.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+./example_02-09.o: In function `cv::_InputArray::~_InputArray()':
+/home/hjpark/eclipse-workspace/cannyedge_pyrdown/Debug/../example_02-09.cpp:5: multiple definition of `help(char**)'
+./example_02-08.o:/home/hjpark/eclipse-workspace/cannyedge_pyrdown/Debug/../example_02-08.cpp:6: first defined here
+makefile:44: 'cannyedge' 타겟에 대한 명령이 실패했습니다
+./example_02-09.o: In function `cv::Mat::Mat()':
+/home/hjpark/eclipse-workspace/cannyedge_pyrdown/Debug/../example_02-09.cpp:16: multiple definition of `main'
+./example_02-08.o:/home/hjpark/eclipse-workspace/cannyedge_pyrdown/Debug/../example_02-08.cpp:18: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [cannyedge] 오류 1
+09:49:31 **** Clean-only build of configuration Debug for project cannyedge ****
+make clean 
+rm -rf  ./example_02-07.o  ./example_02-07.d  cannyedge_pyrdown
+ 
+09:49:31 **** Incremental Build of configuration Debug for project cannyedge ****
+make all 
+Building file: ../example_02-07.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-07.d" -MT"example_02-07.o" -o "example_02-07.o" "../example_02-07.cpp"
+Finished building: ../example_02-07.cpp
+ 
+Building target: cannyedge_pyrdown2
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge_pyrdown2"  ./example_02-07.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: cannyedge_pyrdown2
+ 
+09:49:33 **** Clean-only build of configuration Debug for project cannyedge_pyrdown ****
+make clean 
+rm -rf  ./example_02-08.o ./example_02-09.o  ./example_02-08.d ./example_02-09.d  cannyedge
+ 
+09:49:34 **** Incremental Build of configuration Debug for project cannyedge_pyrdown ****
+make all 
+Building file: ../example_02-08.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-08.d" -MT"example_02-08.o" -o "example_02-08.o" "../example_02-08.cpp"
+Finished building: ../example_02-08.cpp
+ 
+Building target: cannyedge
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge"  ./example_02-08.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: cannyedge
+ 
+09:49:36 **** Clean-only build of configuration Debug for project cannyedge_pyrdown2 ****
+make clean 
+rm -rf  ./example_02-08.o ./example_02-09.o  ./example_02-08.d ./example_02-09.d  cannyedge
+ 
+09:49:36 **** Build of configuration Debug for project cannyedge_pyrdown2 ****
+make all 
+Building file: ../example_02-09.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-09.d" -MT"example_02-09.o" -o "example_02-09.o" "../example_02-09.cpp"
+Finished building: ../example_02-09.cpp
+ 
+Building target: cannyedge_pyrdown
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge_pyrdown"  ./example_02-09.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: cannyedge_pyrdown
+ 
+10:13:48 **** Clean-only build of configuration Debug for project input_from_camera ****
+make clean 
+rm -rf  ./example_02-09.o  ./example_02-09.d  cannyedge_pyrdown
+ 
+10:13:49 **** Build of configuration Debug for project input_from_camera ****
+make all 
+Building file: ../example_02-10.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-10.d" -MT"example_02-10.o" -o "example_02-10.o" "../example_02-10.cpp"
+Finished building: ../example_02-10.cpp
+ 
+Building target: input_from_camera
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "input_from_camera"  ./example_02-10.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: input_from_camera
+ 

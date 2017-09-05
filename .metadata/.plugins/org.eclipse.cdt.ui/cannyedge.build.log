@@ -1,0 +1,15 @@
+09:49:31 **** Incremental Build of configuration Debug for project cannyedge ****
+make all 
+Building file: ../example_02-07.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"example_02-07.d" -MT"example_02-07.o" -o "example_02-07.o" "../example_02-07.cpp"
+Finished building: ../example_02-07.cpp
+ 
+Building target: cannyedge_pyrdown2
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "cannyedge_pyrdown2"  ./example_02-07.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: cannyedge_pyrdown2
+ 
+
+09:49:33 Build Finished (took 2s.160ms)
+

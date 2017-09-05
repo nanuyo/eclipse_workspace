@@ -1,0 +1,10 @@
+16:37:47 **** Incremental Build of configuration Debug for project pyrDown ****
+make all 
+Building target: pyrDown
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "pyrDown"  ./example_02-06.o   -lopencv_core -lopencv_imgproc -lopencv_videoio -lopencv_highgui -lopencv_imgcodecs
+Finished building target: pyrDown
+ 
+
+16:37:47 Build Finished (took 374ms)
+

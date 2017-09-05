@@ -1,0 +1,10 @@
+16:10:37 **** Incremental Build of configuration Debug for project DisplayImage ****
+make all 
+Building target: DisplayImage
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "DisplayImage"  ./DisplayImage.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs
+Finished building target: DisplayImage
+ 
+
+16:10:37 Build Finished (took 375ms)
+
