@@ -1,0 +1,1 @@
+inrange.o: ../inrange.cpp

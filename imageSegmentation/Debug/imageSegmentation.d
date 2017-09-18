@@ -1,0 +1,1 @@
+imageSegmentation.o: ../imageSegmentation.cpp

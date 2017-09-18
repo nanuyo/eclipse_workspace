@@ -1,10 +1,15 @@
-16:10:37 **** Incremental Build of configuration Debug for project DisplayImage ****
+17:58:46 **** Incremental Build of configuration Debug for project DisplayImage ****
 make all 
+Building file: ../DisplayImage.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DisplayImage.d" -MT"DisplayImage.o" -o "DisplayImage.o" "../DisplayImage.cpp"
+Finished building: ../DisplayImage.cpp
+ 
 Building target: DisplayImage
 Invoking: GCC C++ Linker
-g++ -L/usr/local/lib -o "DisplayImage"  ./DisplayImage.o   -lopencv_core -lopencv_highgui -lopencv_imgcodecs
+g++ -L/usr/local/lib -o "DisplayImage"  ./DisplayImage.o   -lopencv_core -lopencv_imgcodecs -lopencv_videoio -lopencv_imgproc -lopencv_highgui
 Finished building target: DisplayImage
  
 
-16:10:37 Build Finished (took 375ms)
+17:58:47 Build Finished (took 1s.28ms)
 

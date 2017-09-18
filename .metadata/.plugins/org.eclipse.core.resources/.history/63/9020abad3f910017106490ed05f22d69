@@ -1,1 +1,0 @@
-DisplayImage.o: ../DisplayImage.cpp
