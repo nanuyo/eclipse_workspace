@@ -9894,3 +9894,22 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -7
 	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:285)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SESSION 2017-09-18 09:06:07.132 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-09-18 09:06:13.164
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-09-18 09:27:39.112
+!MESSAGE The project description file (.project) for 'Body-Parts-Detection' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-09-18 09:27:55.063
+!MESSAGE The project description file (.project) for 'Body-Parts-Detection' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2017-09-18 09:29:58.879
+!MESSAGE The project description file (.project) for 'Body-Parts-Detection' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
